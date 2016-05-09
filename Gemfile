@@ -42,9 +42,10 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :test do
-  gem "rspec-rails", "~> 2.14"
-  gem "factory_girl_rails"
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'ffaker'
+  gem 'shoulda-matchers', '~>2.5.0'
 end
 
 gem 'devise'
